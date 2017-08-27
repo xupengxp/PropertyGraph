@@ -1,0 +1,26 @@
+{
+  "vertices":[
+    {"name":"tt","age":"27","_id":"1","_type":"person"},
+    {"name":"vadas","age":"27","_id":"2","_type":"person"},
+    {"name":"lop","lang":"java","_id":"3","_type":"person"},
+    {"name":"josh","age":"32","_id":"4","_type":"person"},
+    {"name":"ripple","lang":"java","_id":"5","_type":"company"},
+    {"name":"peter","age":"35","_id":"6","_type":"company"},
+    {"name":"xp","age":"27","_id":"7","_type":"person"}
+  ],
+  "edges":[
+    {"weight":"0.5","_outV":"1","_inV":"2","relation":"knows"},
+    {"weight":"1.0","_outV":"2","_inV":"4","relation":"knows"},
+    {"weight":"5.0","_outV":"1","_inV":"3","relation":"created"},
+    {"weight":"0.1","_outV":"4","_inV":"5","relation":"created"},
+    {"weight":"0.4","_outV":"4","_inV":"3","relation":"created"},
+    {"weight":"0.2","_outV":"3","_inV":"5","relation":"created"},
+    {"weight":"0.2","_outV":"5","_inV":"3","relation":"created"},
+    {"weight":"0.7","_outV":"4","_inV":"6","relation":"created"},
+    {"weight":"0.2","_outV":"1","_inV":"6","relation":"created"},
+    {"weight":"0.2","_outV":"5","_inV":"7","relation":"created"},
+    {"weight":"0.9","_outV":"7","_inV":"5","relation":"created"},
+    {"weight":"0.2","_outV":"2","_inV":"6","relation":"created"},
+    {"weight":"0.6","_outV":"6","_inV":"4","relation":"created"}
+  ]
+}
